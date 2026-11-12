@@ -1,0 +1,3 @@
+.env
+__pycache__/
+app1_openai.py
