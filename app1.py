@@ -1,11 +1,12 @@
 
 import streamlit as st
+import os
+import chromadb
 from pypdf import PdfReader
 from docx import Document
 from openai import OpenAI
-import os
 
-MODEL = "gemini-flash-latest"
+MODEL = "gemini-3.1-flash-lite"
 
 st.set_page_config(
     page_title="DocBot",
